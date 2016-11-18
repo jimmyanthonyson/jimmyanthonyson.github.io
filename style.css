@@ -1,0 +1,28 @@
+body{
+    font-family: "Georgia", Sans-serif;
+    color: #FDFEFE;
+    background-color: #444444;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    background-size: 150% 150%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px #000;
+}
+td, th {
+    border: 0px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #555555;
+    background: rgba(1, 1, 1, 0.8) 
+}
+tr:nth-child(odd) {
+    background-color: #444444;
+    background: rgba(1, 1, 1, 0.3) 
+}
